@@ -1,0 +1,56 @@
+# Dependencias PHP y JS
+/vendor/
+/node_modules/
+
+# Archivos de entorno y credenciales (NUNCA subir a Git)
+.env
+.env.backup
+.env.production
+.env.*.local
+.env.local
+/auth.json
+
+# Assets compilados por Vite / Inertia
+/public/build
+/public/hot
+/public/storage
+
+# Almacenamiento local y caché de Laravel
+/storage/*.key
+/storage/pail
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+/storage/logs/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/logs/.gitignore
+
+# Bases de datos SQLite locales (si usas SQLite)
+*.sqlite
+*.sqlite-journal
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Caché de pruebas
+.phpunit.result.cache
+/.phpunit.cache
+
+# IDEs y Sistema Operativo
+.DS_Store
+Thumbs.db
+Homestead.json
+Homestead.yaml
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+.phpactor.json
