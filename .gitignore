@@ -54,3 +54,6 @@ Homestead.yaml
 /.nova
 /.zed
 .phpactor.json
+
+# Contexto interno, no se sube al repo
+CONTEXT.md
